@@ -1,27 +1,27 @@
 var data = [
     {
         naam:"Hadiths of the Prophet",
-        imgs:"https://www.quranhost.com/wp-content/uploads/2020/08/best-books-of-hadith.jpg",
+        imgs:"IMG/best-books-of-hadith.jpg",
     },
     {
         naam:"Quran with Tajweed",
-        imgs:"https://cdn-gblnp.nitrocdn.com/ckHDmEwPmzNuYYSirDDoRUCcNbqqNPjc/assets/images/optimized/rev-992cb6a/wp-content/uploads/2021/11/syed-aoun-abbas-RwWh6HbkP-s-unsplash-min-min-1080x675.jpg",
+        imgs:"IMG/Quran with Tajweed.webp",
     },
     {
         naam:"Islamic Studies",
-        imgs:"https://onlinemehrabqurancenter.com/wp-content/uploads/2021/12/Islamic-Studies-Online.jpg",
+        imgs:"IMG/Islamic-Studies-Online.jpg",
     },
     {
         naam:"Quran Memorization",
-        imgs:"https://alquranworld.com/wp-content/uploads/2021/05/quran-1.jpg",
+        imgs:"IMG/Quran Memorization.jpg",
     },
     {
         naam:"Quran with Translation",
-        imgs:"https://i.pinimg.com/550x/26/71/8a/26718a999e0904de656bc668a674aaa3.jpg",
+        imgs:"IMG/quran translate.jpg",
     },
     {
         naam:"History of Islam",
-        imgs:"https://www.alim.org/img/history.jpg",
+        imgs:"IMG/history.jpg",
     },
 ]
 for (a=0; a<data.length; a++){
