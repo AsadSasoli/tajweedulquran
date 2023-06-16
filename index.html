@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="slider.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="phone-number-validation-master/build/css/intlTelInput.min.css">
+    <link rel="stylesheet" href="phone-number-validation-master/build/css/intlTelInput.css">
     <link rel="icon" type="image/png" href="IMG/2nd logo.png">
     <title>Tajweed-Ul-Quran Home</title>
 </head>
@@ -214,7 +216,11 @@
 
         </div>
     </div>
-    
+        <div class="demobx">
+            <ul>
+                <li><a href="contactus.html">BOOK A DEMO</a></li>
+            </ul>
+        </div>
     <div class="faqbg">
         <div class="faqheading">
             <h1>FAQ's</h1>
@@ -274,6 +280,29 @@
             </div>
           </div>
         
+    </div>
+    <div class="homecontact">
+        <div class="homecontactbox">
+            <div class="contactheading">
+                <h1>Contact Us</h1>
+                <div class="homcon">
+                    <input type="text" placeholder="Name" id="name" required>
+                </div>
+                <div class="homcon">
+                    <input type="email" placeholder="Email" id="email" required>
+                </div>
+                <div class="homcon">
+                    <input type="tel" id="phone" placeholder="Phone Number" required style="height: 50px;width: 100%;">
+                </div>
+                <div class="homconm">
+                    <textarea name="comment" form="usrform" id="message" placeholder="Message"></textarea>
+                </div>
+                <div class="homcons">
+                    <input id="sub" type="submit" onclick="sendWhatsApp()">
+                </div>
+            </div>
+                     
+        </div>
     </div>
     <div class="footerbg">
         <div class="fbox">
@@ -335,6 +364,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="phone-number-validation-master/build/js/intlTelInput-jquery.min.js"></script>
+<script src="phone-number-validation-master/build/js/intlTelInput.min.js"></script>
 <script>
     // Swiper Slider
     var swiper6 = new Swiper(".mySwiper6", {
@@ -370,6 +401,22 @@ for (a=0; a<=2; a++){
         </div>
     `
 }
+var input = document.querySelector("#phone");
+    window.intlTelInput(input,{});
+function sendWhatsApp() {
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("email").value;
+        var phone = document.getElementById("phone").value;
+        var message = document.getElementById("message").value;
+
+        var url = "https://wa.me/+447588193140?text=" +
+            "*Name:* " + encodeURIComponent(name) + "%0a" +
+            "*Email:* " + encodeURIComponent(email) + "%0a" +
+            "*Phone:* " + encodeURIComponent(phone) + "%0a" +
+            "*Message:* " + encodeURIComponent(message);
+
+        window.open(url, '_blank').focus();
+    }
 
 </script>
 

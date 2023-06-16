@@ -76,6 +76,9 @@
     .right{
         display: none !important;
     }
+    .homebannerab{
+        border-radius: 0px !important;
+    }
     .left{
         gap: 0px !important;
     }  
@@ -92,6 +95,10 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+    .homecontactbox{
+        width: 100% !important;
+        border-radius: 0px !important;
     }
     .ficonbox {
         margin-left: 10px;
@@ -192,6 +199,10 @@
     }
     .right{
         display: none !important;
+    }
+    .homecontactbox{
+        width: 100% !important;
+        border-radius: 0px !important;
     }
     .left{
         gap: 10px !important;

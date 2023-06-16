@@ -1,7 +1,7 @@
 var data = [
     {
         naam:"Hadiths of the Prophet",
-        imgs:"https://i0.wp.com/academiamag.com/wp-content/uploads/2018/11/Hadith-about-Knowledge.jpg?resize=770%2C593&ssl=1",
+        imgs:"https://www.quranhost.com/wp-content/uploads/2020/08/best-books-of-hadith.jpg",
     },
     {
         naam:"Quran with Tajweed",
