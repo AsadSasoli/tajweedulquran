@@ -125,6 +125,12 @@
     .contactusleft{
         width: 100% !important;
     }
+    .contactbox{
+        width: 100% !important;
+    }
+    .contactform h1{
+        padding: 20px;
+    }
     .body{
         /* border: 2px solid; */
         height: 400px !important;
@@ -147,12 +153,15 @@
     .homebannerbtn2 ul li{
         padding: 10px 10px !important;
         padding-right: 20px !important;
+        font-size: 12px;
     }
     .homebannerbtn2 i{
         margin-left: 10px !important;
         margin-right: 10px !important;
+        font-size: 16px !important; 
     }
     .homebannerbtn ul li{
+        font-size: 12px;
         padding: 10px 20px !important;
     }
     .homebannertxtboxbg{
