@@ -943,3 +943,22 @@ main{
     /* display: flex;
     align-items: center; */
 }
+.spaicel{
+    border-radius: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: auto;
+}
+.spaicel h1{
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.spaicel b{
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.forexamplebox{
+    background-color: rgba(0, 0, 0, 0.322);
+}

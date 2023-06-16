@@ -84,6 +84,9 @@
         height: 400px !important;
         margin: auto !important;
     }
+    .spaicel{
+        width: 100% !important;
+    }
     .footerbg{
         display: flex;
         flex-direction: column;
