@@ -160,12 +160,24 @@
         margin-right: 10px !important;
         font-size: 16px !important; 
     }
+    .homebannerbtn2 ul{
+        padding-left: 0px;
+    }
+    .homebannerbtn ul{
+        padding-left: 0px;
+    }
     .homebannerbtn ul li{
         font-size: 12px;
         padding: 10px 20px !important;
     }
     .homebannertxtboxbg{
         padding-top: 50px !important;
+    }
+    .homebanner{
+        border-bottom-left-radius: 0px !important;
+    }
+    .homebannertext{
+        padding-left: 10px !important;
     }
 } 
 @media only screen and (max-width: 635px){

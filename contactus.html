@@ -164,11 +164,11 @@
                   <div class="mainform">
                     <form>
                         <div class="contactinput">
-                            <input type="text" placeholder="Name" required>
+                            <input type="text" placeholder="Name" id="name" required>
                         </div>
                         <br>
                         <div class="contactinput">
-                            <input type="email" placeholder="Email" required>
+                            <input type="email" placeholder="Email" id="email" required>
                         </div>
                         <br>
                         <div class="contactinput">
@@ -176,13 +176,13 @@
                         </div>
                         <br>
                         <div class="contactinput">
-                            <textarea name="comment" form="usrform" placeholder="Message"></textarea>
+                            <textarea name="comment" form="usrform" id="message" placeholder="Message"></textarea>
                         </div>
                         <br>
                         <div class="contactsubmit">
-                            <input type="submit">
+                            <input type="submit" onclick="sendWhatsApp()">
                         </div>
-                    </form>
+                    </form>                    
                 </div>
             </div>
         </div>
@@ -276,6 +276,20 @@
 <script>
     var input = document.querySelector("#phone");
     window.intlTelInput(input,{});
+    function sendWhatsApp() {
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("email").value;
+        var phone = document.getElementById("phone").value;
+        var message = document.getElementById("message").value;
+
+        var url = "https://wa.me/+923170121216?text=" +
+            "*Name:* " + encodeURIComponent(name) + "%0a" +
+            "*Email:* " + encodeURIComponent(email) + "%0a" +
+            "*Phone:* " + encodeURIComponent(phone) + "%0a" +
+            "*Message:* " + encodeURIComponent(message);
+
+        window.open(url, '_blank').focus();
+    }
 </script>
 </body>
 </html>

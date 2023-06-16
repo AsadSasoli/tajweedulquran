@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div class="contactinput">
+            <input type="text" placeholder="Name" id="name" required>
+        </div>
+        <br>
+        <div class="contactinput">
+            <input type="email" placeholder="Email" id="email" required>
+        </div>
+        <br>
+        <div class="contactinput">
+            <input type="tel" id="phone" placeholder="Phone Number" required style="height: 50px;width: 100%;">
+        </div>
+        <br>
+        <div class="contactinput">
+            <textarea name="comment" form="usrform" id="message" placeholder="Message"></textarea>
+        </div>
+        <br>
+        <div class="contactsubmit">
+            <input type="submit" onclick="sendWhatsApp()">
+        </div>
+    </form>
+    
+    <script>
+        function sendWhatsApp() {
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var phone = document.getElementById("phone").value;
+            var message = document.getElementById("message").value;
+    
+            var url = "https://wa.me/+923170121216?text=" +
+                "*Name:* " + encodeURIComponent(name) + "%0a" +
+                "*Email:* " + encodeURIComponent(email) + "%0a" +
+                "*Phone:* " + encodeURIComponent(phone) + "%0a" +
+                "*Message:* " + encodeURIComponent(message);
+    
+            window.open(url, '_blank').focus();
+        }
+    
+</script>    
+</body>
+</html>
