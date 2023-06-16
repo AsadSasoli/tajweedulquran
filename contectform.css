@@ -1,0 +1,60 @@
+.mainform{
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid; */
+}
+.contactinput{
+    width: 80%;
+    height: 50px;
+    /* border: 2px solid;    */
+    /* display: grid;
+    place-items: center; */
+}
+.contactinput input{
+    width: 100%;
+    height: 100%;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px rgb(245, 245, 245) solid;
+    color:  rgb(245, 245, 245);
+    font-size: 18px;
+    font-weight: lighter;
+}
+.contactinput input::-webkit-input-placeholder{
+    color:  rgb(245, 245, 245);
+    /* font-weight: bold; */
+}
+.contactinput textarea{
+    width: 100%;
+    height: 100%;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px rgb(245, 245, 245) solid;
+    color: white;
+    font-size: 18px;
+    height: 160px;
+    font-weight: lighter;
+}
+.contactinput textarea::-webkit-input-placeholder{
+    color:  rgb(245, 245, 245);
+    /* font-weight: bold; */
+}
+.contactsubmit input{
+    background-color: black;
+    border: none;
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.contactsubmit input{
+    color: white;
+    text-decoration: none;
+}
+.contactsubmit{
+    width: 100px;
+    height: 100px;
+    /* background: red; */
+    margin-top: 100px;
+}

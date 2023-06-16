@@ -1,0 +1,205 @@
+@media only screen and (max-width: 1160px){
+    .abimagebox{
+        display: none !important;
+    }
+}
+@media only screen and (max-width: 840px){
+    .left span a{
+        font-size: 12px;
+    }    
+    .top{
+        height: 80px !important;
+    }
+    /* .right{
+        display: none !important;
+    }  */
+    .left{
+        gap: 30px !important;
+    } 
+    .contactusright{
+        display: none !important;
+    }
+    .contactusleft{
+        width: 100% !important;
+        box-shadow: 4px 4px 18px;
+        border-radius: 20px;
+    }
+    .abimagebox{
+        display: none !important;
+    }
+    .abtextbox{
+        width: 90% !important;
+    }
+    /* .navbar{
+        display: none !important;
+        width: 50% !important;
+    }
+    .navbar ul{
+        width: 100%;
+        flex-direction: column;
+        line-height: 50px;
+        padding: 0px !important;
+        position: absolute;
+        right: -110%;
+        top: 45px;
+        text-align: center !important;
+        background: #d98f27;
+        transition: all 1s;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 50px;
+    }
+    .navbar ul li{
+        text-align: center !important; 
+    }
+    .navbar ul li a{
+        text-align: center !important; 
+        color: black !important;
+    }
+    .burgur{
+        margin-right: 30px;
+        
+    }
+    .burgur i{
+        display: block !important;
+        color: #d98f27;
+        font-size: 34px !important;
+    } */
+    
+} 
+@media only screen and (max-width: 490px){
+    .left span a{
+        font-size: 12px;
+    }    
+    .top{
+        height: 80px !important;
+    }
+    .right{
+        display: none !important;
+    }
+    .left{
+        gap: 0px !important;
+    }  
+    .footerlogo{
+        width: 100% !important;   
+        height: 400px !important;
+        margin: auto !important;
+    }
+    .footerbg{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .ficonbox {
+        margin-left: 10px;
+    }
+    .homebannerbtn ul{
+        display: flex;
+        flex-direction: column !important;
+    }
+    .homebannerbtn{
+        padding-top: 0px !important;
+    }
+    .homebannerbtn2{
+        padding-top: 0px !important;
+    }
+    #fbox h1{
+        margin-left: -100px;
+    }
+    #fboxbtns{
+        margin-left: -100px;
+    }
+    .hcheading h1{
+        font-size: 7vw !important;
+        
+    }
+    /* .uktext{
+        font-size: 2vw !important;
+    } */
+    .coursebx{
+        transform: scale(0.8);
+    }
+    .contactusright{
+        display: none !important;
+    }
+    .contactusleft{
+        width: 100% !important;
+    }
+    .body{
+        /* border: 2px solid; */
+        height: 400px !important;
+    }
+    .swiper-slide:nth-child(1n){
+        background-size:  contain !important;
+    }
+    .swiper-slide:nth-child(2n){
+        background-size:  contain !important;
+    }
+    .swiper-slide:nth-child(3n){
+        background-size:  contain !important;
+    }
+    .swiper-slide:nth-child(4n){
+        background-size:  contain !important;
+    }
+    .abbannertextbg h1{
+        font-size: 11vw !important;
+    }
+    .homebannerbtn2 ul li{
+        padding: 10px 10px !important;
+        padding-right: 20px !important;
+    }
+    .homebannerbtn2 i{
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+    }
+    .homebannerbtn ul li{
+        padding: 10px 20px !important;
+    }
+    .homebannertxtboxbg{
+        padding-top: 50px !important;
+    }
+} 
+@media only screen and (max-width: 635px){
+    .left span a{
+        font-size: 12px;
+    }    
+    .top{
+        height: 80px !important;
+    }
+    .right{
+        display: none !important;
+    }
+    .left{
+        gap: 10px !important;
+    }  
+    /* .homebannerbtn2{ */
+        /* transform: scale(0.3); */
+    /* } */ */
+    /* .fboxbtns{
+        padding: 0px 0px 0px 20px !important;
+    }
+    .fboxbtns ul{
+        padding: 10% !important;
+    }
+    .fbox h1{
+        margin-left: -60px;
+    } */
+    
+} 
+@media only screen and (max-width: 609px){
+    
+    .footerlogo{
+        width: 100% !important;   
+        height: 400px !important;
+        margin: auto !important;
+    }
+    .footerbg{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .ficonbox {
+        margin-left: 10px;
+    }
+}
